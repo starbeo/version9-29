@@ -1,0 +1,5 @@
+[18-Jul-2019 08:59:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'SpreadsheetReader: File (2.xlsx) not readable' in /home2/powerco1/public_html/Track/application/third_party/Excel_reader/SpreadsheetReader.php:44
+Stack trace:
+#0 /home2/powerco1/public_html/Track/application/third_party/Excel_reader/index.php(7): SpreadsheetReader->__construct('2.xlsx')
+#1 {main}
+  thrown in /home2/powerco1/public_html/Track/application/third_party/Excel_reader/SpreadsheetReader.php on line 44

@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^middleware\.powercoursier\.ma$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.middleware\.powercoursier\.ma$
+RewriteRule ^/?$ "https\:\/\/middleware\.powercoursier\.ma\/" [R=301,L]
+

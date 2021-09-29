@@ -1,0 +1,327 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #6a6c6f;
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight:600;
+    font-size:24px;
+    text-transform: uppercase;
+    text-align:center;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #28b8da;
+    border-color: #22a7c6;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #ffffff;
+    background-color: #1e95b1;
+    border-color: #0f4b5a;
+}
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #1e95b1;
+    border-color: #197b92;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #1e95b1;
+    border-color: #197b92;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    color: #ffffff;
+    background-color: #197b92;
+    border-color: #0f4b5a;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #28b8da;
+    border-color: #22a7c6;
+}
+.btn-primary .badge {
+    color: #28b8da;
+    background-color: #ffffff;
+}
+
+textarea.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+input[type="color"]:focus {   
+    border-color: #28B8DA;
+    box-shadow: none;
+    outline: 0 none;
+}
+input.form-control {
+    box-shadow:none;
+}
+input.form-control {
+    border-radius:0px;
+}
+.company-logo {
+    margin-bottom:25px;
+    display:block;
+}
+.company-logo img {
+    margin: 0 auto;
+    display:block;
+}
+.authentication-form-wrapper {
+    margin-top:80px;
+}
+.authentication-form {
+    border: 1px solid #e4e5e7;
+    padding: 20px;
+    background: #fff;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+label {
+    /*color:#6a6c6f;*/
+    color:black;
+    font-weight:600 !important;
+}
+.div-logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 80px;
+}
+.div-logo img{
+    width: 100%;
+    height: 100%;
+}
+.btn-globe {
+    color: #fff;
+    background-color: #28b8da;
+    border-color: #28b8da;
+}
+.btn-globe:hover {
+    color: #28b8da;
+    background-color: #fff;
+    border-color: #28b8da;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #4267b2;
+    border-color: #4267b2;
+}
+.btn-facebook:hover {
+    color: #4267b2;
+    background-color: #fff;
+    border-color: #4267b2;
+}
+.btn-instagram {
+    color: #fff;
+    background-color: #c13584;
+    border-color: #c13584;
+}
+.btn-instagram:hover {
+    color: #c13584;
+    background-color: #fff;
+    border-color: #c13584;
+}
+.btn-linkedin {
+    color: #fff;
+    background-color: #0084bf;
+    border-color: #0084bf;
+}
+.btn-linkedin:hover {
+    color: #0084bf;
+    background-color: #fff;
+    border-color: #0084bf;
+}
+.btn-configuration {
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+    font-size: 2em;
+    color: dimgrey;
+}
+.login-configuration {
+    background: rgba(240, 240, 240, 0.70);
+    height: 220px;
+    width: 220px;
+    text-align: center;
+    top: 108px;
+    left: -25px;
+    position: relative;
+    border-radius: 4px;
+    transition: all 1s ease;
+}
+.hide-configuration {
+    display: none;
+}
+.textWall {
+    font-size:12px;
+    font-weight: bold;
+}
+.containerWall {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 190px;
+    margin-right: 5px;
+}
+.containerWall::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+.containerWall::-webkit-scrollbar {
+    width: 8px;
+    height:8px;
+    background-color: #ffffff;
+}
+.containerWall::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #5d5d5d;
+} 
+.containerWall img {
+    cursor: pointer;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 3px;
+}
+.wall-login_bg_1 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_1.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_2 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_2.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_3 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_3.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_4 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_4.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_5 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_5.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_6 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_6.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_7 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_7.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_8 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_8.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_9 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_9.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_10 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_10.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_11 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_11.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_12 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_12.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_13 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_13.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_14 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_14.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_15 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_15.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_16 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_16.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_17 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_17.jpg') !important;
+    background-size: 100% !important;
+}
+.wall-login_bg_18 {
+    background-image: url('../../../images/background/fonds-ecran/big/login_bg_18.jpg') !important;
+    background-size: 100% !important;
+}
+footer {
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #e4e5e7;
+}
+
+/** Tracking RESPONSIVE **/
+@media screen and (min-width: 100px) and (max-width: 400px) {
+    .authentication-form-wrapper{
+        margin-top: 40px;
+    }
+    .authentication-form{
+        margin-bottom: 40px;
+    }
+}

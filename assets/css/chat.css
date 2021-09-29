@@ -1,0 +1,340 @@
+#messages-main {
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+#messages-main:after, #messages-main:before {
+    content: " ";
+    display: table;
+}
+#messages-main .ms-menu {
+    border-right: 1px solid #eee;
+    padding-bottom: 50px;
+    height: 550px;
+    max-height: 550px;
+    background: #fff;
+    padding: 0px;
+}
+#messages-main .ms-body {
+    height: 550px;
+    max-height: 550px;
+    padding: 0px;
+}
+#messages-main .ms-user {
+    padding: 15px;
+    background: #f8f8f8;
+}
+#messages-main .ms-user>div {
+    overflow: hidden;
+    padding: 3px 5px 0 15px;
+    font-size: 11px;
+}
+#messages-main #ms-compose {
+    position: fixed;
+    bottom: 120px;
+    z-index: 1;
+    right: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+}
+#ms-menu-trigger {
+    user-select: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    padding-right: 10px;
+    padding-top: 19px;
+}
+#ms-menu-trigger i {
+    font-size: 21px;
+}
+#ms-menu-trigger.toggled i:before {
+    content: '\f2ea'
+}
+.fc-toolbar:before, .login-content:after {
+    content: ""
+}
+.message-feed {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.message-feed:hover {
+    background-color: #FAFAFA;
+}
+.message-feed.media {
+    margin-top: 3px !important;
+}
+.message-feed.right {
+    margin-top: 3px !important;
+}
+
+#footer, .fc-toolbar .ui-button, .fileinput .thumbnail, 
+.four-zero, .four-zero footer>a, 
+.ie-warning, .login-content, .login-navigation, 
+.pt-inner, .pt-inner .pti-footer>a {
+    text-align: center;
+}
+.message-feed.right>.pull-right {
+    margin-left: 15px;
+}
+.message-feed:not(.right) .mf-content {
+    background: #2dc3e8;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.message-feed.right .mf-content {
+    background: #eee;
+}
+.mf-content {
+    padding: 12px 17px 13px;
+    border-radius: 2px;
+    display: inline-block;
+    max-width: 80%
+}
+.mf-date {
+    display: block;
+    color: #B3B3B3;
+    margin-top: 7px;
+}
+.mf-date>i {
+    font-size: 14px;
+    line-height: 100%;
+    position: relative;
+    top: 1px;
+}
+.msb-reply {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #eee;
+    background: #f8f8f8;
+}
+.four-zero, .lc-block {
+    box-shadow: 0 1px 11px rgba(0, 0, 0, .27);
+}
+.msb-reply textarea {
+    width: 100%;
+    font-size: 13px;
+    border: 0;
+    padding: 10px 15px;
+    resize: none;
+    height: 60px;
+    background: 0 0;
+}
+.msb-reply button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    height: 100%;
+    width: 60px;
+    font-size: 25px;
+    color: #2196f3;
+    background: 0 0;
+}
+.msb-reply button:hover {
+    background: #f2f2f2;
+}
+.img-avatar {
+    height: 37px;
+    border-radius: 2px;
+    width: 37px;
+}
+.list-group.lg-alt .list-group-item {
+    border: 0;
+}
+.p-5 {
+    padding: 5px!important;
+}
+.p-15 {
+    padding: 15px!important;
+}
+.btn:not(.btn-alt) {
+    border: 0;
+}
+.action-header {
+    position: relative;
+    background: #f8f8f8;
+    padding: 15px 13px 15px 17px;
+}
+.ah-actions {
+    z-index: 3;
+    float: right;
+    margin-top: 7px;
+    position: relative;
+}
+.actions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.actions>li {
+    display: inline-block;
+}
+
+.actions:not(.a-alt)>li>a>i {
+    color: #939393;
+}
+.actions>li>a>i {
+    font-size: 20px;
+}
+.actions>li>a {
+    display: block;
+    padding: 0 10px;
+}
+.ms-body{
+    background:#fff;    
+}
+#ms-menu-trigger {
+    user-select: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    padding-right: 10px;
+    padding-top: 19px;
+    cursor:pointer;
+}
+#ms-menu-trigger, .message-feed.right {
+    text-align: right;
+}
+#ms-menu-trigger, .toggle-switch {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.l-h-0{
+    line-height: 0px;
+}
+.l-h-25{
+    line-height: 25px;
+}
+.l-h-35{
+    line-height: 35px;
+}
+.mleft-8{
+    margin-left: -8px;
+}
+.list-group-item{
+    cursor: pointer;
+    min-height: 45px;
+    margin-bottom: 0px;
+    padding-bottom: 0px !important;
+}
+.list-group-item-left img{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+}
+.list-group-item-body{
+    min-height: 60px;
+    border-bottom: 1px solid #e9ebeb;
+}
+.list-group-item-heading{
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    margin: 0px;
+}
+.list-group-item-heading-1{
+    height: 30px;
+    line-height: 14px;
+    margin: 0;
+}
+.list-contacts{
+    max-height: 390px;
+    overflow: scroll;
+}
+.list-messages-conversation{
+    min-height: 420px;
+    max-height: 420px;
+    overflow: scroll;
+    background-color: #FFFFFF;
+}
+.icon_online{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: -12px;
+    background: #53a93f;
+}
+.icon_offline{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: -12px;
+    background: #ccc;
+}
+.icon_occuped{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: -12px;
+    background: #ff6f00;
+}
+.bloc-conversation{
+    height: 550px;
+    max-height: 550px;
+}
+.msb-reply{
+    visibility: hidden;
+}
+.check_read{
+    color: #2dc3e8;
+}
+.check_notread{
+    color: #ccc;
+}
+.bloc_message_unread{
+    position: absolute;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 1px 4px;
+    border-width: 2px;
+    border-radius: 46%;
+    top: 10px;
+    right: 15px;
+}
+.show_more_messages{
+    background: #ccc;
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 5px auto;
+    padding: 3px 5px;
+}
+.show_more_messages:hover{
+    background: #FFF;
+    color: #CCC;
+}
+.icon-online-conversation {
+    font-size: 1em;
+    color: #8dc859;
+}
+.icon-offline-conversation {
+    font-size: 1em;
+    color: #cccccc;
+}
+.icon-occuped-conversation {
+    font-size: 1em;
+    color: #ff6f00;
+}
+
+@media (max-width:767px) {
+    #messages-main .ms-menu {
+        height: calc(100% - 58px);
+        display: none;
+        z-index: 1;
+        top: 58px;
+    }
+    #messages-main .ms-menu.toggled {
+        display: block;
+    }
+    #messages-main .ms-body {
+        overflow: hidden;
+    }
+}

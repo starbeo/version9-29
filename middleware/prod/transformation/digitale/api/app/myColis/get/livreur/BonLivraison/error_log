@@ -1,0 +1,5 @@
+[13-Jun-2020 16:55:49 Europe/Paris] PHP Notice:  Undefined variable: ColisMethods in /home/rs1402846/public_html/middleware/prod/transformation/digitale/api/app/myColis/get/livreur/BonLivraison/getBonLivraisonItems.php on line 42
+[13-Jun-2020 16:55:49 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function statuts() on null in /home/rs1402846/public_html/middleware/prod/transformation/digitale/api/app/myColis/get/livreur/BonLivraison/getBonLivraisonItems.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/rs1402846/public_html/middleware/prod/transformation/digitale/api/app/myColis/get/livreur/BonLivraison/getBonLivraisonItems.php on line 42

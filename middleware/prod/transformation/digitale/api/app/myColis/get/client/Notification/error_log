@@ -1,0 +1,5 @@
+[09-Sep-2020 16:11:38 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/rs1402846/public_html/middleware/prod/transformation/digitale/api/app/myColis/get/client/Methods/NotificationMethods.php:81
+Stack trace:
+#0 /home/rs1402846/public_html/middleware/prod/transformation/digitale/api/app/myColis/get/client/Notification/getPopupNotif.php(19): NotificationMethods->getNotifPopup('1811', '$2a$08$a.XZAqd9...')
+#1 {main}
+  thrown in /home/rs1402846/public_html/middleware/prod/transformation/digitale/api/app/myColis/get/client/Methods/NotificationMethods.php on line 81
